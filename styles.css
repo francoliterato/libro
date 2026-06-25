@@ -418,6 +418,19 @@ h3 {
   color: var(--muted);
 }
 
+
+.reviews-section .eyebrow,
+.reviews-section h2,
+.reviews-section .review-card h3,
+.reviews-section .review-card p,
+.reviews-section .review-card a,
+.reviews-section .stars {
+  color: var(--cream);
+}
+
+.reviews-section .review-card a {
+  font-weight: 800;
+}
 .faq-list {
   display: grid;
   gap: 0.8rem;
@@ -584,3 +597,10 @@ details p {
     grid-template-columns: 1fr;
   }
 }
+
+
+.reviews-section .review-card a {
+  color: var(--cream) !important;
+}
+
+
